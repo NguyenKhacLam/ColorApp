@@ -14,6 +14,7 @@ function PaletteList(props) {
 			<div className={classes.container}>
 				<nav className={classes.nav}>
 					<h1>Color Picker</h1>
+					<Link to={'/palette/new'}>Create Palette</Link>
 				</nav>
 				<div className={classes.palettes}>
 					{palettes.map((palette) => (
